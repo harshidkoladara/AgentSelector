@@ -1,11 +1,11 @@
 # **Agent Selector** 
 
 ## **Problem Statement**
-You are given the following data for agents 
+#### You are given the following data for agents<br/>
   agent<br/>
-  is_available
-  available_since (the time since the agent is available)
-  roles (a list of roles the user has, e.g. spanish speaker, sales, support etc.) 
+  is_available<br/>
+  available_since (the time since the agent is available)<br/>
+  roles (a list of roles the user has, e.g. spanish speaker, sales, support etc.)<br/>
 
 When an issue comes in we need to present the issue to 1 or many agents based on an agent selection mode. 
 An agent selection mode can be all available, least busy or random.
